@@ -13,6 +13,7 @@
 		BE9EF1CF22276D8E007BD23B /* ReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9EF1CE22276D8E007BD23B /* ReferenceViewController.swift */; };
 		BE9EF1D1222773D4007BD23B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9EF1D0222773D4007BD23B /* LICENSE */; };
 		BE9EF1D3222773E6007BD23B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9EF1D2222773E6007BD23B /* AboutViewController.swift */; };
+		BEC926602409586000CBD455 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC9265F2409586000CBD455 /* WebKit.framework */; };
 		BED7EC12222623E5007180BB /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED7EC11222623E5007180BB /* MainTabViewController.swift */; };
 		BED7EC14222631D3007180BB /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED7EC13222631D3007180BB /* AppSettings.swift */; };
 		BEE3491A2225FDEC009B8ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE349192225FDEC009B8ED3 /* AppDelegate.swift */; };
@@ -31,6 +32,7 @@
 		BE9EF1CE22276D8E007BD23B /* ReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceViewController.swift; sourceTree = "<group>"; };
 		BE9EF1D0222773D4007BD23B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE9EF1D2222773E6007BD23B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		BEC9265F2409586000CBD455 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		BED7EC11222623E5007180BB /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
 		BED7EC13222631D3007180BB /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		BEE349162225FDEC009B8ED3 /* FTA Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FTA Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC926602409586000CBD455 /* WebKit.framework in Frameworks */,
 				140A89ADEEB9D718DA1939B8 /* Pods_FTA_Buddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,6 +62,7 @@
 		440B98C6F136DFF0BEF27718 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BEC9265F2409586000CBD455 /* WebKit.framework */,
 				D212C696050F4754E1B158EC /* Pods_FTA_Buddy.framework */,
 			);
 			name = Frameworks;
@@ -390,12 +394,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = WC7R2MUF8W;
 				INFOPLIST_FILE = "FTA Buddy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenschenke.FTA-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -411,12 +417,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = WC7R2MUF8W;
 				INFOPLIST_FILE = "FTA Buddy/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.02;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenschenke.FTA-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
