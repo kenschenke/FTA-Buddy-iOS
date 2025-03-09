@@ -24,18 +24,28 @@ class FlashCardsViewController: UIViewController {
         }
     }
 
-    @IBAction func ethernetButtonPressed(_ sender: Any) {
-        message = "Plug in Ethernet"
-        performSegue(withIdentifier: "showFlashCard", sender: self)
-    }
-    
     @IBAction func comeHereButtonPressed(_ sender: Any) {
         message = "Come Here"
         performSegue(withIdentifier: "showFlashCard", sender: self)
     }
     
+    @IBAction func preloadButtonPressed(_ sender: Any) {
+        message = "Preload?"
+        performSegue(withIdentifier: "showFlashCard", sender: self)
+    }
+    
+    @IBAction func switchButtonPressed(_ sender: Any) {
+        message = "Switch stations"
+        performSegue(withIdentifier: "showFlashCard", sender: self)
+    }
+    
     @IBAction func turnOnRobotButtonPressed(_ sender: Any) {
         message = "Turn on Robot"
+        performSegue(withIdentifier: "showFlashCard", sender: self)
+    }
+    
+    @IBAction func ethernetButtonPressed(_ sender: Any) {
+        message = "Plug in Ethernet"
         performSegue(withIdentifier: "showFlashCard", sender: self)
     }
     
